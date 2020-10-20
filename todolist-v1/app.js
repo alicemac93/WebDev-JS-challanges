@@ -20,40 +20,6 @@ app.get("/", function(req, res){
 });
 
 
-
-
-/* var currentDay = today.getDay();
-var day = "";
-
-switch (currentDay) {
-  case 0:
-    day = "Sunday";
-    break;
-  case 1:
-    day = "Monday";
-    break;
-  case 2:
-    day = "Tuesday";
-    break;
-  case 3:
-    day = "Wednesday";
-    break;
-  case 4:
-    day = "Thursday";
-    break;
-  case 5:
-    day = "Friday";
-    break;
-  case 6:
-    day = "Saturday";
-    break;
-  default:
-  console.log("error");
-};
-*/
-
-
-
 app.post("/", function(req, res){
 
   let item = req.body.newItem; // grabing value what is in the form "name"= newItem, tapping into te value - have to have body parser (line 7)
